@@ -8,6 +8,9 @@ public class MainController {
 	
 	@GetMapping("/")
 	public String root () {
+		
+		
+		String csvFile = "/C:/Users/niyi/Downloads/corona.csv";
 		return "mainTemplate";
 	}
 
