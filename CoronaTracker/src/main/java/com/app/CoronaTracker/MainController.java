@@ -23,6 +23,7 @@ public class MainController {
 			reader = new CSVReader(new FileReader(csvFile));
 			String[] line;
 			// declare i = 0 skip the first line because it got the variable names
+			//
 			int i = 0;
 			while((line = reader.readNext()) != null) {
 				if (i == 0) {
